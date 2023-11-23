@@ -24,7 +24,7 @@ public class PedidoDto {
 		this.formaPagamento = formaPagamento;
 		this.valor = valor;
 	}
-	 
+	
 	//Getter
 	public int getNumPedido() {
 		

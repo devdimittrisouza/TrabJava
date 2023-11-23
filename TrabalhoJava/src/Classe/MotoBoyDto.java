@@ -2,50 +2,28 @@ package Classe;
 
 public class MotoBoyDto {
 
-	private String nome;
-	private String login;
-	private String senha;
-
+	private String nomeMoto;
+	
 	// Criando o construtor da classe
-	public MotoBoyDto(String nome, String login, String senha) {
+	public MotoBoyDto(String nomeMoto) {
 
-		this.nome = nome;
-		this.login = login;
-		this.senha = senha;
+		this.nomeMoto = nomeMoto;
+		
 	}
 
 	// Getters e Setters
 
-	public String getNome() {
+	public String getNomeMoto() {
 
-		return nome;
-	}
-
-	public String getLogin() {
-
-		return login;
-	}
-
-	public String getSenha() {
-
-		return senha;
+		return nomeMoto;
 	}
 
 	// Setters
-	public void setNome(String nome) {
+	public void setNomeMoto(String nomeMoto) {
 
-		this.nome = nome;
+		this.nomeMoto = nomeMoto;
 	}
 
-	public void setLogin(String login) {
-
-		this.login = login;
-	}
-
-	public void setSenha(String senha) {
-
-		this.senha = senha;
-	}
 }
 
  

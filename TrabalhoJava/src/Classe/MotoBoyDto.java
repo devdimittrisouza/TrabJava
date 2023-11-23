@@ -1,13 +1,13 @@
 package Classe;
 
-public class UsuarioDto {
+public class MotoBoyDto {
 
 	private String nome;
 	private String login;
 	private String senha;
 
 	// Criando o construtor da classe
-	public UsuarioDto(String nome, String login, String senha) {
+	public MotoBoyDto(String nome, String login, String senha) {
 
 		this.nome = nome;
 		this.login = login;

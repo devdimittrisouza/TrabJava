@@ -94,5 +94,5 @@ public class PedidoDto {
         System.out.println("Número do Pedido: " + pedidoClonado.getNumPedido());
         System.out.println("Cliente: " + pedidoClonado.getNomeCliente());
     }
-}
+} 
  

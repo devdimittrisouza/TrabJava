@@ -88,11 +88,24 @@ public class PedidoDto {
         // Exibindo informações do pedido clonado
         System.out.println("Informações do Pedido Original:");
         System.out.println("Número do Pedido: " + pedidoOriginal.getNumPedido());
+        System.out.println("Data da compra:  " + pedidoOriginal.getDataCompra());
+        System.out.println("Valor do frete: " + pedidoOriginal.getValorFrete());
         System.out.println("Cliente: " + pedidoOriginal.getNomeCliente());
+        System.out.println("Numero do Cliente: " + pedidoOriginal.getNumCliente());
+        System.out.println("Status: " + pedidoOriginal.getStatus());
+        System.out.println("Forma de Pagamento: " + pedidoOriginal.getFormaPagamento());
+        System.out.println("Valor: " + pedidoOriginal.getValor());
 
         System.out.println("\nInformações do Pedido Clonado:");
         System.out.println("Número do Pedido: " + pedidoClonado.getNumPedido());
+        System.out.println("Data da compra:  " + pedidoClonado.getDataCompra());
+        System.out.println("Valor do frete: " + pedidoClonado.getValorFrete());
         System.out.println("Cliente: " + pedidoClonado.getNomeCliente());
+        System.out.println("Numero do Cliente: " + pedidoClonado.getNumCliente());
+        System.out.println("Status: " + pedidoClonado.getStatus());
+        System.out.println("Forma de Pagamento: " + pedidoClonado.getFormaPagamento());
+        System.out.println("Valor: " + pedidoClonado.getValor());
+        
     }
 } 
  
